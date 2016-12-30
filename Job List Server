@@ -2,6 +2,8 @@ TODO UMUM :
 1.  Fungsi auto complete di search bar C:\xampp\htdocs\PKL\application\views\frames\nav.php : 29
     1.1 Pake gabungan bisa NIM bisa nama aja, contoh : Muhammad Luqman | 14.8261
 2.  (Minor Bug) Kalo navigasinya di klik, karena load halaman jadi yang fitur collapsenya agak aneh
+3.  (Minor Bug) Chart di progres agregat ukurannya gak fix sama tabelnya
+4.  (Rapihin) page_end_script_progres_pencacahan
 
 TODO DASHBOARD :
 1.  Fungsi retrive persentase pencacahan dan listing

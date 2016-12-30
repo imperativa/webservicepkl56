@@ -10,7 +10,7 @@
 .page-header{
 	color: #4A9095;
 	font-weight: 500pt;
-  border-bottom: 1px solid #98c9cd;	
+  border-bottom: 1px solid #98c9cd;
 }
 .navbar-default{
 background-color: #EFFFFF;
@@ -26,7 +26,7 @@ font-weight: bold;
 	background-color: #FFFFFF;
 }
 .sidebar ul li a.active{
-	background-color: #00b3b3;	
+	background-color: #00b3b3;
 	color :#FFFFFF;
 }
 /*#page-wrapper{
@@ -62,5 +62,10 @@ body {
 }
 #page-wrapper {
 	background-color: #FFFFFF;
+}
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
 }
 /*warna garis = #e6e6e6;*/

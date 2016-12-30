@@ -11,13 +11,20 @@
         <div class="col-lg-12">
             <div class="panel panel-default">
                 <div class="panel-heading">
-                    Informasi Unit Cacah
+					<div class="row">
+                        <div class="col-sm-9">
+                            Informasi Unit Cacah
+                        </div>
+                        <div class="col-sm-3">
+                            <button class="btn btn-link pull-right" id="reload"><i class="fa fa-refresh"></i></button>
+                        </div>
+                    </div>
                 </div>
                 <!-- /.panel-heading -->
                 <div class="panel-body">
                     <div class="row">
                         <div class="col-lg-3">
-                            <p> Kode kuesioner </p> 
+                            <p> Kode kuesioner </p>
                             <br>
                             <p> Nama responden </p>
                             <br>
@@ -27,11 +34,11 @@
                             <br>
                             <p> Kontak lain yang bisa dihubungi </p>
                             <br>
-                            
+
                         </div>
-                        
+
                         <div class="col-lg-9">
-                            <p>: <?php echo $detail['Kode kuesioner'] ?> </p> 
+                            <p>: <?php echo $detail['Kode kuesioner'] ?> </p>
                             <br>
                             <p>: <?php echo $detail['Nama responden'] ?> </p>
                             <br>

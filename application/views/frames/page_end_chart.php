@@ -1,32 +1,20 @@
 <!-- Morris Charts JavaScript -->
-    <script src="<?php echo base_url()?>resources/vendor/raphael/raphael.min.js"></script>
-    <script src="<?php echo base_url()?>resources/vendor/morrisjs/morris.min.js"></script>
+    <script src="<?php echo base_url('resources/vendor/raphael/raphael.min.js')?>"></script>
+    <script src="<?php echo base_url('resources/vendor/morrisjs/morris.min.js')?>"></script>
 
     <script type="text/javascript">
     	$(function() {
     		Morris.Bar({
 		        element: 'morris-bar-chart',
 		        data: [{
-		            y: 'B',
+		            y: '1',
 		            a: 100
 		        }, {
-		            y: 'BB',
+		            y: '2',
 		            a: 75
 		        }, {
-		            y: 'BS',
+		            y: '3',
 		            a: 50
-		        }, {
-		            y: 'BT',
-		            a: 75
-		        }, {
-		            y: 'Bl',
-		            a: 50
-		        }, {
-		            y: 'BlT',
-		            a: 75
-		        }, {
-		            y: 'PP',
-		            a: 100
 		        }],
 		        xkey: 'y',
 		        ykeys: ['a'],
@@ -35,4 +23,12 @@
 		        resize: true
 		    });
 		});
+        $.ajax({
+            url: '',
+            type: 'GET',
+            dataType: 'json',
+            success: function(result) {
+
+            }
+        });
     </script>

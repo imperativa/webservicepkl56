@@ -2,7 +2,7 @@
 <div id="page-wrapper">
     <div class="row">
         <div class="col-lg-12">
-            <h1 class="page-header">Progres Pencacahan</h1>
+            <h1 class="page-header">Progres Listing</h1>
         </div>
         <!-- /.col-lg-12 -->
     </div>
@@ -11,54 +11,37 @@
         <div class="col-lg-12">
             <div class="panel panel-default">
                 <div class="panel-heading">
-                    Pilih Lokasi
+                    Pilih Lokasi Listing
                 </div>
                 <!-- /.panel-heading -->
                 <div class="panel-body">
                     <div class="row">
                         <div class="col-lg-4">
-                            <form method="pos">
+                            <form method="post">
                                 <div class="form-group">
                                     <label>Kabupaten/Kota</label>
-                                    <select class="form-control">
-                                        <option>Bangka</option>
-                                        <option>Bangka Barat</option>
-                                        <option>Bangka Selatan</option>
-                                        <option>Bangka Tengah</option>
-                                        <option>Belitung</option>
-                                        <option>Belitung Timur</option>
-                                        <option>Kota Pangkal Pinag</option>
-                                    </select>
+                                    <div id="select_div">
+                                        <select class="form-control" id="select_kabupaten">
+                                        </select>
+                                    </div>
                                 </div>
                                 <div class="form-group">
                                     <label>Kecamatan</label>
-                                    <select class="form-control">
-                                        <option></option>
-                                        <option>1</option>
-                                        <option>2</option>
-                                        <option>3</option>
+                                    <select class="form-control" id="select_kecamatan">
                                     </select>
                                 </div>
                                 <div class="form-group">
                                     <label>Kelurahan/Desa</label>
-                                    <select class="form-control">
-                                        <option></option>
-                                        <option>1</option>
-                                        <option>2</option>
-                                        <option>3</option>
+                                    <select class="form-control" id="select_kelurahandesa">
                                     </select>
                                 </div>
                                 <div class="form-group">
                                     <label>Blok Sensus</label>
-                                    <select class="form-control">
-                                        <option></option>
-                                        <option>1</option>
-                                        <option>2</option>
-                                        <option>3</option>
+                                    <select class="form-control" id="select_bloksensus">
                                     </select>
                                 </div>
                                 <div class="form-group">
-                                    <button type="button" class="btn btn-primary btn-lg btn-block">Lihat Progres</button>
+                                    <button type="button" class="btn btn-primary btn-lg btn-block" id="btn_lihat">Lihat Progres</button>
                                 </div>
                             </form>
                         </div>

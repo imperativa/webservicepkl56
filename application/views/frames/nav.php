@@ -36,16 +36,33 @@
                     <!-- /input-group -->
                 </li>
                 <li>
-                    <a href="<?php echo base_url()?>index.php/pkl/dashboard"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
+                    <a href="<?php echo base_url('pkl/dashboard')?>"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-list-ol fa-fw"></i> Progres Listing<span class="fa arrow"></span></a>
+                    <ul class="nav nav-second-level">
+                        <li>
+                            <a href="<?php echo base_url('pkl/progres_agregat_listing')?>">Agregat</a>
+                        </li>
+                        <li>
+                            <a href="<?php echo base_url('pkl/progres_listing')?>">Wilayah</a>
+                        </li>
+                    </ul>
                 </li>
                 <li>
                     <a href="#"><i class="fa fa-tasks fa-fw"></i> Informasi Pencacahan<span class="fa arrow"></span></a>
                     <ul class="nav nav-second-level">
                         <li>
-                            <a href="<?php echo base_url()?>index.php/pkl/unit_cacah">Unit Cacah</a>
+                            <a href="<?php echo base_url('pkl/unit_cacah')?>">Daftar Unit Cacah</a>
                         </li>
                         <li>
-                            <a href="<?php echo base_url()?>index.php/pkl/pcl">PCL (Pencacah Lapangan)</a>
+                            <a href="<?php echo base_url('pkl/search_unit_cacah')?>">Pencarian Unit Cacah</a>
+                        </li>
+                        <li>
+                            <a href="<?php echo base_url('pkl/pcl')?>">Daftar PCL(Pencacah Lapangan)</a>
+                        </li>
+                        <li>
+                            <a href="<?php echo base_url('pkl/search_pcl')?>">Pencarian PCL(Pencacah Lapangan)</a>
                         </li>
                     </ul>
                 </li>
@@ -53,18 +70,18 @@
                     <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Progres Pencacahan<span class="fa arrow"></span></a>
                     <ul class="nav nav-second-level">
                         <li>
-                            <a href="<?php echo base_url()?>index.php/pkl/progres_agregat">Aggregat</a>
+                            <a href="<?php echo base_url('pkl/progres_agregat_cacah')?>">Agregat</a>
                         </li>
                         <li>
-                            <a href="<?php echo base_url()?>index.php/pkl/progres_pencacahan">Wilayah</a>
+                            <a href="<?php echo base_url('pkl/progres_cacah')?>">Wilayah</a>
                         </li>
                         <li>
-                            <a href="<?php echo base_url() ?>index.php/pkl/analisis_realtime">Analisis Real Time</a>
+                            <a href="<?php echo base_url('pkl/analisis_realtime')?>">Analisis Real Time</a>
                         </li>
                     </ul>
                 </li>
                 <li>
-                    <a href="<?php echo base_url()?>index.php/pkl/monitoring_masalah"><i class="fa fa-desktop fa-fw"></i> Monitoring Masalah Lapangan</a>
+                    <a href="<?php echo base_url('pkl/monitoring_masalah')?>"><i class="fa fa-desktop fa-fw"></i> Monitoring Masalah Lapangan</a>
                 </li>
             </ul>
         </div>
